@@ -1,0 +1,213 @@
+.card__wrap {
+	background: #ffffff;
+	overflow: auto;
+	flex: 1;
+}
+
+.card__contact__wrap {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 1rem;
+	padding-top: 20px;
+}
+
+.card__info__wrap {
+	border: 1px solid rgb(173, 170, 170);
+	border-radius: 10px;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.card__info__header__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__info__header__main {
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
+}
+
+.card__info__header__title {
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.card__info__body__wrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.card__info__body__contact__wrap {
+	margin-top: 30px;
+}
+
+.card__info__body__contact__email {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__info__body__contact__email__wrap {
+	display: flex;
+}
+
+.card__info__body__contact__title {
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.card__info__body__contact__more {
+	background: #fff1f0;
+	color: #921317;
+	padding: 7px;
+	border-radius: 50px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+.card__info__body__address__title {
+	padding: 5px 0px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.card__info__body__social__wrap {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 25px;
+}
+
+.card__info__body__social__main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card__info__body__social__main__title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 15px;
+}
+
+.card__info__body__statement__title {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+.card__right__sidebar_wrap {
+	border: 1px solid rgb(173, 170, 170);
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.card__right__sidebar_header__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card__right__sidebar_header {
+	display: flex;
+	align-items: center;
+}
+
+.card__right__sidebar_header__title {
+	margin-left: 10px;
+}
+
+.card__right__sidebar_email {
+	display: flex;
+	padding-top: 25px;
+}
+
+.word__break1 {
+	margin-left: 15px;
+	display: flex;
+}
+.word__break2 {
+	margin-left: 15px;
+	display: inline-block;
+	word-break: break-all;
+}
+
+.card__right__sidebar_email__title {
+	width: 100%;
+}
+
+.bi-pencil {
+	color: #8f2625;
+	cursor: pointer;
+}
+
+.card__main {
+	max-height: 233px;
+	overflow: auto;
+}
+
+.bi-person-video2,
+.bi-geo-alt,
+.bi-briefcase,
+.bi-link-45deg,
+.bi-quote {
+	color: #cccccc;
+	font-size: 1.5rem;
+}
+
+.bi-envelope,
+.bi-telephone {
+	color: #cccccc;
+}
+
+.bi-globe,
+.bi-instagram,
+.bi-facebook,
+.bi-twitter {
+	color: #cccccc;
+	font-size: 1.7rem;
+}
+
+.cursor__pen {
+	cursor: pointer;
+}
+
+@media (max-width: 800px) {
+	.card__contact__wrap {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.card__contact__wrap {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 480px) {
+	.card__info__wrap {
+		padding: 10px;
+	}
+}

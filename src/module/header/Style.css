@@ -1,0 +1,156 @@
+.header__wrap {
+	background: #ffffff;
+	height: var(--header__height);
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+.header__main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
+.header__logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: var(--sidebar__width);
+	margin: 0px 15px;
+	padding: 0px 20px;
+}
+
+.header__logo__section {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.header__powered {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.header__logo__title {
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.header__powered__title {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: rgb(173, 170, 170);
+}
+
+.header__logo__section img {
+	height: 45px;
+	width: 45px;
+}
+
+.header__powered img {
+	height: 18px;
+	width: 50px;
+	margin-left: 5px;
+}
+
+.header__checkout {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #000000;
+	padding: 10px 40px;
+	border-radius: 8px;
+	color: #ffffff;
+	height: 20px;
+}
+
+.header__checkout__title {
+	margin-left: 10px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.header__profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	margin-left: 25px;
+}
+
+.header__profile__title {
+	margin: 0px 10px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+
+.header__end {
+	display: flex;
+	align-items: center;
+	margin-right: 58px;
+}
+
+.header__search {
+	flex: 1;
+}
+
+.bi-person__desktop {
+	border: 1px solid #000000;
+	border-radius: 50px;
+	font-size: 25px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+}
+
+.hamburger__wrap {
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	display: none;
+}
+
+.header__mobile__end {
+	padding: 10px 20px;
+	font-size: 1.5rem;
+	display: none;
+}
+
+.bi-cart3 {
+	margin: 0px 20px;
+}
+
+@media (max-width: 1024px) {
+	.header__logo,
+	.header__search,
+	.header__checkout,
+	.header__profile {
+		display: none;
+	}
+
+	.hamburger__wrap {
+		display: block;
+	}
+	.header__mobile__end {
+		display: block;
+	}
+}
