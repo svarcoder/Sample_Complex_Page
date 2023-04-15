@@ -125,7 +125,14 @@ const RightSidebar = ({ open, setOpen }: Props) => {
 				<div>
 					<div className='mob__right__sidebar'>
 						<div className='right__sidebar__header'>
-							<i className='bi bi-arrow-left' />
+							<i
+								className='bi bi-arrow-left'
+								onClick={() =>
+									edit?.state === true
+										? setEdit({ id: 0, state: false })
+										: setOpen(!open)
+								}
+							/>
 							<p className='right__sidebar__header__title'>Contacts</p>
 						</div>
 						<i

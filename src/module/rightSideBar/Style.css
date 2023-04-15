@@ -12,6 +12,10 @@
 	box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
+.bi-arrow-left {
+	cursor: pointer;
+}
+
 .right__sidebar__main {
 	display: flex;
 	flex-direction: column;

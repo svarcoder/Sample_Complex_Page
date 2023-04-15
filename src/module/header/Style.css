@@ -77,7 +77,6 @@
 }
 
 .header__checkout__title {
-	margin-left: 10px;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
@@ -136,7 +135,7 @@
 }
 
 .bi-cart3 {
-	margin: 0px 20px;
+	margin-right: 10px;
 }
 
 @media (max-width: 1024px) {
